@@ -26,10 +26,10 @@ export default {
   methods: {
     initAMap() {
       window._AMapSecurityConfig = {
-        securityJsCode: "c096a10e962c5ae822ef7fc0e518ff1d",
+        securityJsCode: "",
       };
       AMapLoader.load({
-        key: "488b13cdbdd3d11f38cad568057a910c", // 申请好的Web端开发者Key，首次调用 load 时必填
+        key: "", // 申请好的Web端开发者Key，首次调用 load 时必填
         version: "2.0", // 指定要加载的 JSAPI 的版本，缺省时默认为 1.4.15
         plugins: ["AMap.MouseTool", "AMap.PolygonEditor"], //需要使用的的插件列表，如比例尺'AMap.Scale'，支持添加多个如：['...','...']
       })
